@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Des Questions? Nos Réponses"
+          paragraph="Découvrez les réponses aux questions fréquemment posées sur nos services d'applications web, solutions SaaS personnalisées et technologies IoT."
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment débuter un projet d'application web?"
+              answer="Nous commençons par une analyse de vos besoins, suivie d'une proposition détaillée incluant fonctionnalités, délais et budget."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quels sont les délais pour un SaaS personnalisé?"
+              answer="Le développement prend généralement 3 à 6 mois selon la complexité et les fonctionnalités requises."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Proposez-vous des solutions IoT clé en main?"
+              answer="Oui, nous concevons des écosystèmes IoT complets, du capteur à l'interface utilisateur, adaptés à vos besoins spécifiques."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Offrez-vous un support après-vente?"
+              answer="Nous proposons un support technique continu et des mises à jour régulières pour tous nos produits et services."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment sécurisez-vous vos applications?"
+              answer="Nous implémentons les dernières normes de sécurité et effectuons des tests réguliers pour garantir la protection des données."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Peut-on intégrer vos solutions à nos systèmes?"
+              answer="Absolument. Nos solutions sont conçues pour s'intégrer facilement avec vos systèmes et logiciels existants."
             />
           </div>
         </div>
