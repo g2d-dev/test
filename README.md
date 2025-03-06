@@ -45,17 +45,12 @@ Follow these steps to set up and run this template on your local machine:
 
 2. Once you've done that, navigate into the template directory using the **cd** command.
 
-3. Install the necessary dependencies by running either of the following commands:
+3. Install the necessary dependencies by running the following commands:
 
 ```bash
-    npm install
+    npm install --legacy-peer-deps
 ```
-
-or
-
-```bash
-    yarn install
- ```
+**Note:** As of right now React 19 causes peer dependencies issues with some packages, so the `legacy-peer-deps` flag is required.
 
 4. Now you're ready to start the project on your local server. Use the following command to get it up and running:
 
@@ -81,6 +76,12 @@ If you appreciate this project, please consider starring this repository. Your s
 For a wider range of options, feel free to browse our collection of [Next.js Templates, Boilerplates and Starter Kits](https://nextjstemplates.com/templates).
 
 ### Update Log
+**29 Jan 2025**
+- Upgraded to Next.js 15
+- Using `Link` instead of `a` tag
+- Fixed all minor bugs
+
+  
 **21 March 2024**
 - Upgraded to Next.js 14
 - Updated stripe integration
