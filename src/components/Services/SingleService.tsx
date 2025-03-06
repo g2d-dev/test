@@ -1,8 +1,8 @@
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/service";
 import Link from "next/link";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph, btn, btnLink } = feature;
+const SingleService = ({ service }: { service: Service }) => {
+  const { icon, title, paragraph, btn, btnLink } = service;
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-1/4">
       <div className="wow fadeInUp group mb-12" data-wow-delay=".15s">
@@ -27,4 +27,4 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
   );
 };
 
-export default SingleFeature;
+export default SingleService;

@@ -1,6 +1,6 @@
-import { Feature } from "@/types/feature";
+import { Service } from "@/types/service";
 
-const featuresData: Feature[] = [
+const servicesData: Service[] = [
   {
     id: 1,
     icon: (
@@ -17,10 +17,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
-    btnLink: "/#",
+    title: "Site vitrine et E-Commerce",
+    paragraph:
+      "Nous créons des sites vitrines et des boutiques en ligne pour vous permettre de vendre vos produits ou services en ligne.",
+    btn: "En savoir plus",
+    btnLink: "/services/site-vitrine-et-e-commerce",
   },
   {
     id: 2,
@@ -38,10 +39,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
-    btnLink: "/#",
+    title: "Application personnalisé",
+    paragraph:
+      "Nous concevons, développons et déployons des outils personnalisés pour optimiser vos processus et propulser votre entreprise.",
+    btn: "En savoir plus",
+    btnLink: "/services/application-personnalise",
   },
   {
     id: 3,
@@ -91,10 +93,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
-    btnLink: "/#",
+    title: "Web Factory TMA",
+    paragraph:
+      "Avec notre service Web Factory TMA, nous assurons la performance, la sécurité et l’optimisation continue de vos plateformes numériques.",
+    btn: "En savoir plus",
+    btnLink: "/services/web-factory-tma",
   },
   {
     id: 4,
@@ -124,10 +127,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
-    btnLink: "/#",
+    title: "Ingénierie d’infrastructure",
+    paragraph:
+      "Transformez vos opérations avec nos solutions d’ingénierie d’infrastructure performantes et sécurisées, adaptées à vos besoins spécifiques.",
+    btn: "En savoir plus",
+    btnLink: "/services/ingenierie-dinfrastructure",
   },
 ];
-export default featuresData;
+export default servicesData;
