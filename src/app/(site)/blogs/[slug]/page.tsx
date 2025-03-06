@@ -77,7 +77,7 @@ export default async function Post({ params }: Props) {
 
   return (
     <>
-      <Breadcrumb pageName="Blog Details" />
+      <Breadcrumb pageName={post.title} />
 
       <section className="pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
@@ -221,7 +221,7 @@ export default async function Post({ params }: Props) {
               data-wow-delay=".2s"
             >
               <h2 className="relative pb-5 text-2xl font-semibold text-dark dark:text-white sm:text-[28px]">
-                Related Articles
+                D'autres articles
               </h2>
               <span className="mb-10 inline-block h-[2px] w-20 bg-primary"></span>
             </div>
