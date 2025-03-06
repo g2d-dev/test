@@ -293,12 +293,12 @@ const Footer = () => {
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
                   <Link
-                    href="https://tailgrids.com"
+                    href="#"
                     rel="nofollow noopner noreferrer"
                     target="_blank"
                     className="text-gray-1 hover:underline"
                   >
-                    TailGrids and Next.js Templates
+                    Go To Digital
                   </Link>
                 </p>
               </div>
