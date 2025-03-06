@@ -7,11 +7,11 @@ const CallToAction = () => {
         <div className="relative overflow-hidden">
           <div className="-mx-4 flex flex-wrap items-stretch">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[570px] text-center">
+              <div className="mx-auto max-w-[700px] text-center">
                 <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
                   <span>Découvrez nos Services Numériques</span>
                 </h2>
-                <p className="mx-auto mb-2.5 max-w-[515px] text-base leading-[1.5] text-white">
+                <p className="mx-auto mb-3 max-w-[600px] text-base leading-[1.5] text-white">
                   Nous offrons des solutions flexibles et sur mesure pour votre
                   transformation digitale : sites vitrines, e-commerce,
                   applications ou maintenance.
