@@ -44,34 +44,43 @@ body {
 }
 
 .blog-details,
-.blog-details p {
+.blog-details p,
+.service-details,
+.service-details p {
   @apply text-body-color dark:text-dark-6 text-base leading-relaxed;
 }
 
-.blog-details p {
+.blog-details p,
+.service-details p {
   @apply mb-8;
 }
 
-.blog-details strong {
+.blog-details strong,
+.service-details strong {
   @apply text-dark font-bold dark:text-white;
 }
 
-.blog-details ul {
+.blog-details ul,
+.service-details ul {
   @apply mb-8 list-inside list-disc space-y-3;
 }
 
-.blog-details ol {
+.blog-details ol,
+.service-details ol {
   @apply mb-8 list-inside list-decimal space-y-3;
 }
 
-.blog-details h1 {
+.blog-details h1,
+.service-details h1 {
   @apply text-dark mb-8 text-3xl font-bold dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.28];
 }
 
-.blog-details h2 {
+.blog-details h2,
+.service-details h2 {
   @apply text-dark mb-8 text-2xl font-bold dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28];
 }
 
-.blog-details h3 {
+.blog-details h3,
+.service-details h3 {
   @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
 }
