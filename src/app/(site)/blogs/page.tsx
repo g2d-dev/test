@@ -4,9 +4,8 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Blog grids page description",
+  title: "Nos articles | Go To Digital",
+  description: "Blog de Go To Digital",
 };
 
 const Blog = () => {
@@ -14,7 +13,7 @@ const Blog = () => {
 
   return (
     <>
-      <Breadcrumb pageName="Blog Grids" />
+      <Breadcrumb pageName="Nos articles" />
 
       <section className="pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
         <div className="container">
